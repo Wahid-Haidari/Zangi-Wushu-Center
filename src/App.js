@@ -1,10 +1,27 @@
+import React, {useState} from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import AboutWushu from './components/about-wushu/AboutWushu';
+import Schedule from './components/schedule/Schedule';
+import Contact from './components/contact/Contact';
+
 
 function App() {
+
+  const [currentMenuOption , selectMenuOption] = useState('aboutUS');
+  
+
   return (
     <div className="App">
-      <Menu/>
+    
+      <Menu selectMenuOption={selectMenuOption}/>
+      {currentMenuOption =='home' && <Home/>}
+      {currentMenuOption =='aboutUs' && <About/>}
+      {currentMenuOption =='aboutWushu' && <AboutWushu/>}
+      {currentMenuOption =='schedule' && <Schedule/>}
+      {currentMenuOption =='contact' && <Contact/>}
     </div>
   );
 }

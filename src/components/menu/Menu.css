@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+    background-color: lightblue;
+    padding: 1rem;
+    flex-direction: row-reverse;
+    padding-right: 6rem;
+}
