@@ -10,18 +10,18 @@ import Contact from './components/contact/Contact';
 
 function App() {
 
-  const [currentMenuOption , selectMenuOption] = useState('aboutUS');
+  const [currentMenuOption , selectMenuOption] = useState('home');
   
 
   return (
     <div className="App">
     
       <Menu selectMenuOption={selectMenuOption}/>
-      {currentMenuOption =='home' && <Home/>}
-      {currentMenuOption =='aboutUs' && <About/>}
-      {currentMenuOption =='aboutWushu' && <AboutWushu/>}
-      {currentMenuOption =='schedule' && <Schedule/>}
-      {currentMenuOption =='contact' && <Contact/>}
+      {currentMenuOption ==='home' && <Home/>}
+      {currentMenuOption ==='aboutUs' && <About/>}
+      {currentMenuOption ==='aboutWushu' && <AboutWushu/>}
+      {currentMenuOption ==='schedule' && <Schedule/>}
+      {currentMenuOption ==='contact' && <Contact/>}
     </div>
   );
 }

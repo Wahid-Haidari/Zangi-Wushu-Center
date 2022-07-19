@@ -1,0 +1,14 @@
+p{
+    color: white;
+}
+
+
+.img__container{
+ 
+   height: 39rem;
+   overflow:hidden;
+}
+
+img {
+    width: 100%;
+}
