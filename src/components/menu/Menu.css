@@ -6,10 +6,16 @@ ul{
     display: flex;
     gap: 3rem;
     background-color: var(--color-red);
-    padding: 1rem;
+    padding: 0.3rem;
     flex-direction: row-reverse;
     padding-right: 6rem;
     position: fixed;
     width: 100%;
     color: white;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 4rem;
 }

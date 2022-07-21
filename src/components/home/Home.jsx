@@ -1,12 +1,56 @@
 import React from 'react';
 import './Home.css';
-import Khavari_Jian from '../../assets/khavari_jian.jpg';
+import Image1 from '../../assets/Image1.jpg';
+import Image2 from '../../assets/Image2.jpg';
+import Image3 from '../../assets/Image3.jpg';
+
+import { Pagination, Navigation, Autoplay } from "swiper";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
+
+
+const cover_photos = [ {image: Image1}, {image: Image2}, {image: Image3} ];
 
 const Home = () => {
     return(
         <div className="container">
             <div className=" img__container">
-                <img src={Khavari_Jian} alt="Khavari"></img>
+                
+
+                <Swiper className='swiper'
+					modules={[Pagination, Navigation, Autoplay]}
+				    spaceBetween={40}
+				    slidesPerView={1}
+				    pagination={{ clickable: true }}
+                    autoplay={{delay: 4000}}
+				    navigation={true}
+				    loop={false}
+				    >
+					{
+						cover_photos.map(({image}, index) => {
+							return (
+								
+								<SwiperSlide key={index}>
+									<div>
+										<img src={image} alt='cover photo'/>
+									</div>
+								</SwiperSlide>
+								
+							)
+						})
+					}
+				</Swiper>
+
+
+
+
             </div>
             <div className='text'>
                 <p dir="rtl">
