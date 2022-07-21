@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/zangi-wushu-center/static/css/main.7d20c961.css",
-    "main.js": "/zangi-wushu-center/static/js/main.4cb3d623.js",
+    "main.css": "/zangi-wushu-center/static/css/main.ccf1ac78.css",
+    "main.js": "/zangi-wushu-center/static/js/main.591ba65b.js",
     "static/js/787.53a3ced6.chunk.js": "/zangi-wushu-center/static/js/787.53a3ced6.chunk.js",
-    "static/media/khavari_jian.jpg": "/zangi-wushu-center/static/media/khavari_jian.dc5afc435a08ddc3ab94.jpg",
+    "static/media/Image3.jpg": "/zangi-wushu-center/static/media/Image3.1962b43aa8a2269ccf6a.jpg",
+    "static/media/Image2.jpg": "/zangi-wushu-center/static/media/Image2.01fdaa7199eae4214417.jpg",
     "static/media/img1.jpg": "/zangi-wushu-center/static/media/img1.53bedfa81ac0f113c99c.jpg",
+    "static/media/Image1.jpg": "/zangi-wushu-center/static/media/Image1.ce67d5e6ae5eb42fecbc.jpg",
+    "static/media/ZWC.png": "/zangi-wushu-center/static/media/ZWC.da3400b20afa3cfea7b4.png",
     "index.html": "/zangi-wushu-center/index.html",
-    "main.7d20c961.css.map": "/zangi-wushu-center/static/css/main.7d20c961.css.map",
-    "main.4cb3d623.js.map": "/zangi-wushu-center/static/js/main.4cb3d623.js.map",
+    "main.ccf1ac78.css.map": "/zangi-wushu-center/static/css/main.ccf1ac78.css.map",
+    "main.591ba65b.js.map": "/zangi-wushu-center/static/js/main.591ba65b.js.map",
     "787.53a3ced6.chunk.js.map": "/zangi-wushu-center/static/js/787.53a3ced6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d20c961.css",
-    "static/js/main.4cb3d623.js"
+    "static/css/main.ccf1ac78.css",
+    "static/js/main.591ba65b.js"
   ]
 }
