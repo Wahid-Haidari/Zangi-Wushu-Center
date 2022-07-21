@@ -3,7 +3,14 @@ import './Schedule.css';
 
 const Schedule = () => {
     return(
-        <h1>Schedule</h1>
+        <div className="container">
+            <h1 dir="rtl">
+                اوقات تمرین
+            </h1>
+            <p dir="rtl">
+                روز های یک شنب، سه شنبه و پنج شنبه از ساعت ۵ الی ۷ بعد از ظهر.
+            </p>
+        </div>
     );
 }
 

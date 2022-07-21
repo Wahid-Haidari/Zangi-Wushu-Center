@@ -5,8 +5,11 @@ ul{
 .menu{
     display: flex;
     gap: 3rem;
-    background-color: lightblue;
+    background-color: var(--color-red);
     padding: 1rem;
     flex-direction: row-reverse;
     padding-right: 6rem;
+    position: fixed;
+    width: 100%;
+    color: white;
 }

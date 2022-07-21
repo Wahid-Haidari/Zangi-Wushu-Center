@@ -1,0 +1,17 @@
+.contact_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form input, textarea{
+    padding: 1rem;
+    width: 30rem;
+}

@@ -1,0 +1,8 @@
+.gallary_image {
+    width: 40rem;
+    margin:1rem;
+}
+
+.container_gallary{
+    display: flex;
+}
