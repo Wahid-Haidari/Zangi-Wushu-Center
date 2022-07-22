@@ -1,8 +1,14 @@
 .gallary_image {
-    width: 40rem;
-    margin:1rem;
+    width: 30rem;
+    height: 22rem;
+    object-fit: cover;
+    margin:2rem;
+   
+
 }
 
 .container_gallary{
-    display: flex;
+    grid-template-columns: 1fr 1fr;
+
+
 }

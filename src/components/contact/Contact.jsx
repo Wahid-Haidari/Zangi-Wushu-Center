@@ -23,6 +23,7 @@ const Contact = () => {
 	};
 
     return(
+
         <div className="container">
 			<h2 dir="rtl">با ما به تماس شوید</h2>
 			<div className='container contact_container'>
@@ -30,25 +31,25 @@ const Contact = () => {
 					<article className='contact_option'>
 						<MdOutlineEmail className='contact_option-icon'/>
 						<h5>zangi1370gmail.com</h5>
-						<a href="zangi1370gmail.com" target="_blank">Send a message</a>
+						<a href="zangi1370gmail.com" target="_blank">پیام بفرستید</a>
 					</article>
 
 					<article className='contact_option'>
 						<RiMessengerLine className='contact_option-icon'/>
-						<a href="https://m.me/mortaza.khavari.9" target="_blank">Send a message</a>
+						<a href="https://m.me/mortaza.khavari.9" target="_blank">پیام بفرستید</a>
 					</article>
 
 					<article className='contact_option'>
 						<BsWhatsapp className='contact_option-icon' />
-						<a href="http://wa.me/+93789612429" target="_blank">Send a message</a>
+						<a href="http://wa.me/+93789612429" target="_blank">پیام بفرستید</a>
 					</article>
 				</div>
 				{/* END OF CONTACT OPTIONS*/}
 				<form ref={form} onSubmit={sendEmail}>
-					<input type="text" name="name" placeholder='Your Full Name' required />
-					<input type="email" name="email" placeholder='Your Email' required/>
-					<textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-					<button type='submit'className='btn btn-primary'>Send Message</button>
+					<input type="text" name="name" placeholder='اسم مکمل' required dir='rtl'/>
+					<input type="email" name="email" placeholder='ایمل آدرس' required  dir='rtl'/>
+					<textarea name="message" rows="7" placeholder='متن پیام' required dir='rtl'></textarea>
+					<button type='submit'className='btn'>ارسال</button>
 				</form>
 			</div>
 			  
