@@ -1,4 +1,3 @@
-import Logo from '../../assets/ZWC.png';
 import './Menu.css';
 
 const NavLinks = ({selectMenuOption}) => {
@@ -10,7 +9,6 @@ const NavLinks = ({selectMenuOption}) => {
     return(
         <div> 
         <ul className='nav_links'>
-            <li><img className='logo' src={Logo} alt='' onClick={()=>onClickMenuOption('home')} ></img></li>
             <li onClick={()=>onClickMenuOption('home')}>خانه</li>
             <li onClick={()=>onClickMenuOption('aboutUs')}>در باره ما</li>
             <li onClick={()=>onClickMenuOption('aboutWushu')}>در مورد ووشو</li>

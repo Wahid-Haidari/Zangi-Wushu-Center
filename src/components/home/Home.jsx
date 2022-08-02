@@ -21,7 +21,7 @@ const cover_photos = [ {image: Image1}, {image: Image2}, {image: Image3} ];
 const Home = () => {
     return(
         <div className="container">
-            <div className=" img__container">
+            <div className=" img_container">
                 
 
                 <Swiper className='swiper'
