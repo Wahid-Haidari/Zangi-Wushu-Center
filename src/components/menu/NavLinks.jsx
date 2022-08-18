@@ -1,6 +1,6 @@
 import './Menu.css';
 
-const NavLinks = ({selectMenuOption}) => {
+const NavLinks = ({selectMenuOption}, {setOpen}, open) => {
 
     const onClickMenuOption = (option) => {
         selectMenuOption(option);
@@ -9,7 +9,7 @@ const NavLinks = ({selectMenuOption}) => {
     return(
         <div> 
         <ul className='nav_links'>
-            <li onClick={()=>onClickMenuOption('home')}>خانه</li>
+            <li onClick={()=>onClickMenuOption('home')} >خانه</li>
             <li onClick={()=>onClickMenuOption('aboutUs')}>در باره ما</li>
             <li onClick={()=>onClickMenuOption('aboutWushu')}>در مورد ووشو</li>
             <li onClick={()=>onClickMenuOption('schedule')}>برنامه ها و اوقات تمرین</li>

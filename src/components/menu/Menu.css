@@ -9,7 +9,6 @@ ul{
     color: white;
     padding: 0.6rem;
     align-items: center;
-   
 }
 
 .menu {
@@ -20,7 +19,6 @@ ul{
     position: fixed;
     z-index: 990;
     width: 100%;
-
 }
 
 .navigation {
@@ -39,7 +37,6 @@ ul{
     width: 4rem;
 }
 
-
 /*============ MEDIA QUERUES (MEDIUM DEVICES) ===============*/
 @media screen and (max-width: 1024px){
    
@@ -56,12 +53,12 @@ ul{
         width: 100%;
         height: 5rem;
     }
-
+    
     .navigation {
         display: none;
 
     }
-
+    
     .mobile_navigation {
         display: flex;
         flex-direction: row;
@@ -92,5 +89,8 @@ ul{
         right: 2px;
         top: 5px;
      }
-}
 
+    .close_icon{
+        color:white;
+    }
+}

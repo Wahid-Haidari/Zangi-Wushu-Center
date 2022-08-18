@@ -9,7 +9,7 @@ const Navigation = ({selectMenuOption}) => {
         
         <nav className="navigation" dir="rtl"> 
             <img className='logo' src={Logo} alt='Logo'></img>
-            <NavLinks selectMenuOption={selectMenuOption}/>    
+            <NavLinks selectMenuOption={selectMenuOption}/>
         </nav>
     );
 }
