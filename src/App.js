@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
 import Home from './components/home/Home';
-import About from './components/about/About';
-import AboutWushu from './components/about-wushu/AboutWushu';
+import About from './components/About';
+import AboutWushu from './components/AboutWushu';
 import Schedule from './components/schedule/Schedule';
-import Contact from './components/contact/Contact';
+import Contact from './components/Contact';
 import Gallery from './components/gallery/Gallery';
+import Events from './components/Events';
 
 
 function App() {
@@ -15,13 +16,14 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div class="text-center">
       <Menu selectMenuOption={selectMenuOption}/>
       {currentMenuOption ==='home' && <Home/>}
       {currentMenuOption ==='aboutUs' && <About/>}
       {currentMenuOption ==='aboutWushu' && <AboutWushu/>}
       {currentMenuOption ==='schedule' && <Schedule/>}
       {currentMenuOption ==='gallery' && <Gallery/>}
+      {currentMenuOption ==='events' && <Events/>}
       {currentMenuOption ==='contact' && <Contact/>}
     </div>
   );

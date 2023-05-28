@@ -8,7 +8,7 @@ import img5 from '../../assets/img5.jpg';
 
 const Gallery = () => {
     return(
-        <div className="container container_gallary">
+        <div className="container container_gallary scrollbar">
             <img className="gallary_image" src={img1} alt="Image1"></img>
             <img className="gallary_image" src={img2} alt="Image2"></img>
             <img className="gallary_image" src={img3} alt="Image3"></img>

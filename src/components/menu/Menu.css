@@ -14,7 +14,6 @@ ul{
 .menu {
     display: flex;
     flex-direction: row-reverse;
-    background-color: var(--color-red);
     height: max-content;
     position: fixed;
     z-index: 990;

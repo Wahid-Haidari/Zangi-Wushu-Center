@@ -31,7 +31,6 @@ code {
 
 :root {
   --color-bg: #041b24;
-  --color-red: #ba0e3a;
   --color-brown: #a8594c;
   --color-green: #477763;
   --color-grey: #9ebdbf;
@@ -60,4 +59,8 @@ code {
 
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 

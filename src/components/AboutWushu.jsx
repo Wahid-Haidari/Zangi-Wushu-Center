@@ -1,8 +1,6 @@
-import React from 'react';
-
 const AboutWushu = () => {
     return(
-        <div className="container">
+        <div>
             <h1 dir="ltr">
                 ووشو چیست
             </h1>
