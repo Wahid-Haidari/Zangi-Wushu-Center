@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
-import Home from './components/home/Home';
+import Home from './components/Home';
 import About from './components/About';
 import AboutWushu from './components/AboutWushu';
 import Schedule from './components/schedule/Schedule';
 import Contact from './components/Contact';
-import Gallery from './components/gallery/Gallery';
+import Gallery from './components/Gallery';
 import Events from './components/Events';
 
 
@@ -28,5 +28,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

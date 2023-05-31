@@ -1,8 +1,6 @@
-import React from 'react';
-import './Home.css';
-import Image1 from '../../assets/Image1.jpg';
-import Image2 from '../../assets/Image2.jpg';
-import Image3 from '../../assets/Image3.jpg';
+import Image1 from '../assets/Image1.jpg';
+import Image2 from '../assets/Image2.jpg';
+import Image3 from '../assets/Image3.jpg';
 
 import { Pagination, Navigation, Autoplay } from "swiper";
 
@@ -17,20 +15,24 @@ import "swiper/css/autoplay";
 
 
 const cover_photos = [ {image: Image1}, {image: Image2}, {image: Image3} ];
+const text = ""
 
 const Home = () => {
     return(
-        <div class="scrollbar">
-            <div className=" img_container">
+        <div>
+            <div>
                 
-                <Swiper className='swiper'
+                <Swiper
+				
+					style={{height: '30rem'}}
+					id='swiper'
 					modules={[Pagination, Navigation, Autoplay]}
 				    spaceBetween={40}
 				    slidesPerView={1}
 				    pagination={{ clickable: true }}
                     autoplay={{delay: 3000}}
 				    navigation={true}
-				    loop={false}
+				    loop={true}
 				    >
 					{
 						cover_photos.map(({image}, index) => {
@@ -46,12 +48,9 @@ const Home = () => {
 						})
 					}
 				</Swiper>
-
-
-
-
+	
             </div>
-            <div className='text'>
+            <div class='m-2 p-2'>
                 <p dir="rtl">
             مرکز ووشوی زنگی، محیطی سالم و مطمئن برای پرورش استعدادهای فرزندان شما!
                 <br/>
@@ -61,6 +60,9 @@ const Home = () => {
             </div>
         </div>
     )
+	
 }
+
+
 
 export default Home;
