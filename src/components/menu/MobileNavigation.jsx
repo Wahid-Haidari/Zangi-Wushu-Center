@@ -11,15 +11,20 @@ const MobileNavigation = ({selectMenuOption}) => {
     const [open, setOpen] = useState(false);
 
 
-    const hamburgerIcon = <FiMenu onClick={()=> setOpen(!open)} className='hamburger' size='40px' color='white'/>
+    const hamburgerIcon = <FiMenu onClick={()=> setOpen(!open)} className='hamburger text-center' size='40px' color='white'/>
     const closeIcon = <IoMdClose onClick={()=> setOpen(!open)} className='close_icon' size='40px' color='white'/>
 
     return(
         <nav className="mobile_navigation" dir="rtl">
-            <img className='logo' src={Logo} alt='Logo'></img>
-            <div className='mobile_menu_options'>
-                {open ? closeIcon:hamburgerIcon}
-                {open && <NavLinks setOpen={setOpen} open= "open" selectMenuOption={selectMenuOption}/>} 
+            <img className='logo' src={Logo} alt='Logo'></img> 
+            <div className='flex flex-col'>
+                <div className='flex justify-center'>
+                    {open ? closeIcon:hamburgerIcon}
+                </div>
+                <div>
+                    {open && <NavLinks setOpen={setOpen} open= "open" selectMenuOption={selectMenuOption}/>}
+                </div>
+                 
             </div>
         </nav>
     );

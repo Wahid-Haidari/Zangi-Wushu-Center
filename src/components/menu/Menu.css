@@ -1,3 +1,16 @@
+ul{
+    list-style: none;
+    justify-content: center;
+}
+
+.nav_links{
+    display: flex;
+    gap: 3rem;
+    color: white;
+    padding: 0.6rem;
+    align-items: center;
+}
+
 .menu {
     display: flex;
     flex-direction: row-reverse;
@@ -47,7 +60,7 @@
     
     .mobile_navigation {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         padding-top: 1rem;
         width: 100%;
@@ -55,6 +68,7 @@
 
     .mobile_menu_options{
         width: 100%;
+        display:flex;
         align-items: center;
     }
 

@@ -1,4 +1,4 @@
-import './Menu.css';
+// import './Menu.css';
 
 const NavLinks = ({selectMenuOption}) => {
 
@@ -8,7 +8,7 @@ const NavLinks = ({selectMenuOption}) => {
 
     return(
         <div> 
-        <ul className='list-none flex gap-12 text-white p-4'>
+        <ul className='nav_links'>
             <li onClick={()=>onClickMenuOption('home')} >خانه</li>
             <li onClick={()=>onClickMenuOption('aboutUs')}>در باره ما</li>
             <li onClick={()=>onClickMenuOption('aboutWushu')}>در مورد ووشو</li>
